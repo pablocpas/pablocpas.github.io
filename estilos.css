@@ -1,181 +1,118 @@
- 
-  body {
-	  font-family: verdana, arial, helvetica, sans-serif;
-		font-size: 0.7em;
-		color: #666;
-	}
-	
-	#contenido {
-    width:60em;
-  	margin-top: 0em;
-  	margin-bottom: 3em;
-    margin-left:auto; 
-    margin-right:auto;
-    text-align:left;  
-	}	
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 0.7em;
+    color: #333; /* Mejorado para contraste */
+}
 
-	.t1{
-	  font-family: arial, verdana, helvetica, sans-serif;
-  	font-size: 1.5em;
-  	font-weight: bold;
-  	color: #ccc;
-  	clear: both;
-  	text-align: right;
-	}
-	
-	.t2{	
-	  font-size: 1.2em;
-	  font-weight: bold;
-		color: #fff;
-		background-color: #CC9900;
-	  padding: 0.3em;
-	}
-	
-	.t3{
-	  font-size: 1.2em;
-	  font-weight: bold;
-		color: #000000;
-	}
+#contenido {
+    width: 60em;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: left;  
+}   
 
+.t1{
+    font-family: arial, verdana, helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #757575; /* Mejorado para contraste */
+    clear: both;
+    text-align: right;
+}
 
-/************************************************
-*                  CABECERA                    *
-************************************************/
-	
-	
-	#logo{
-	  background-color: #f0f0f0;
-		border: 1px solid #ccc;
-		padding: 1em 2em 1em 2em;
-		font-size: 1em;
-		}
-	
-	#la{
-	  font-family: arial, helvetica, sans-serif;
-	  font-weight: bold;
-	  font-size: 3em;
-		color: #CC9900;
-	}
-	
-	#aceitera{
-	  font-family: arial, helvetica, sans-serif;
-		font-weight: bold;
-	  font-size: 3em;
-		color: #000;
-	}
-	
-	#lema{
-	  font-family: arial, helvetica, sans-serif;
-		font-weight: bold;
-	  font-size: 1.2em;
-		font-style: italic;
-		color: #999;
-	}	
-	
-	
-/************************************************
-*            CESTA de la compra                *
-************************************************/
-	
-	
-	#tabla_compra {
-	  width: 60em;
-	  font-family: verdana, arial, helvetica, sans-serif;
-		font-size: 1em;
-	}
-	
-	#tabla_compra td{
-	  padding: 0.5em;
-	}
-	
-	#conceptos td{
-	  background-color: #f0f0f0;
-		border: 1px solid #ccc;
-	}
-	
-	#total td{
-	  padding-top: 0.5em;
-		border-top: 1px solid #ccc;
-	}
-	
-	#info_en{
-	  font-size: 1em;
-	  text-align: right;
-	}
+.t2{  
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000; /* Mejorado para contraste */
+    background-color: #FCCA00; /* Ajustado para mejor contraste */
+    padding: 0.3em;
+}
 
+.t3{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000; /* Este ya tiene buen contraste */
+}
 
-/************************************************
-*       Datos de facturación (formulario)      *
-************************************************/	
-	
-	
-	.info{
-		color:  #000;	
-	  background-color: #EEF6FF;
-		border: 1px solid #0B639A;
-		padding: 0.5em;
-		margin: 0em 0.5em 0em 0.5em;
-	}
-	
-	.i{
-	  color: #fff;
-		background-color: #039;		
-		font-weight: bold;
-		font-size: 1.2em;
-		padding: 0.1em 0.6em 0.1em 0.6em;
-		margin-right: 0.6em;
-	}
-	
-	#datos_personales{
-    float:left; 
-		width: 30em;	
-  }
-	
-	#datos_envio{
-		float: left;			
-	}
-  
-	#observaciones{	
-	  clear: both; 
-		padding-top: 2em;
-  }
-	
-	.obligatorio{
-	  color: #c00;
-	}
-	
-	.campo_form{
-	  margin-top: 0.5em;
-	}
-	
-  .campo_form label{
-    padding-left: 1em;
-		padding-right: 1em;
-    display: block;
-    width: 10em;
-    float: left;
-		text-align: right;
-  }
-	
-	#submit{
-	  text-align: right;
-	}
+#logo{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 1em 2em 1em 2em;
+    font-size: 1em;
+}
 
-/************************************************
-*          Garantías y pie de página           *
-************************************************/
+#la{
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #CC9900; /* Asegúrate de que este color tenga suficiente contraste con el fondo */
+}
 
+#aceitera{
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #000; /* Buen contraste */
+}
 
-	#garantias{
-	  text-align: justify;
-	}	
+#lema{
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #666; /* Mejorado para contraste */
+}
 
-	.lista{
-	  padding-left: 2em;
-	}	
-	
-	#pie{
-	  border-top: 3px solid #ccc;
-		padding: 1em;
-		text-align: center;
-	}
+#tabla_compra {
+    width: 60em;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#tabla_compra td{
+    padding: 0.5em;
+}
+
+#conceptos td{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+#total td{
+    padding-top: 0.5em;
+    border-top: 1px solid #ccc;
+}
+
+#info_en{
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.info{
+    color: #000;   
+    background-color: #EEF6FF; /* Asegúrate de que el contraste sea suficiente */
+    border: 1px solid #0B639A;
+    padding: 0.5em;
+    margin: 0em 0.5em 0em 0.5em;
+}
+
+.i{
+    color: #fff;
+    background-color: #039;      
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.1em 0.6em 0.1em 0.6em;
+    margin-right: 0.6em;
+}
+
+.obligatorio{
+    color: #c00; /* Buen contraste */
+}
+
+#pie{
+    border-top: 3px solid #ccc;
+    padding: 1em;
+    text-align: center;
+}
