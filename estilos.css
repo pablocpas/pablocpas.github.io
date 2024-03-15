@@ -2,7 +2,7 @@
   body {
 	  font-family: verdana, arial, helvetica, sans-serif;
 		font-size: 0.7em;
-		color: #333;
+		color: #666;
 	}
 	
 	#contenido {
@@ -18,7 +18,7 @@
 	  font-family: arial, verdana, helvetica, sans-serif;
   	font-size: 1.5em;
   	font-weight: bold;
-  	color: #757575;
+  	color: #ccc;
   	clear: both;
   	text-align: right;
 	}
@@ -26,8 +26,8 @@
 	.t2{	
 	  font-size: 1.2em;
 	  font-weight: bold;
-		color: #000;
-		background-color: #FCCA00;
+		color: #fff;
+		background-color: #CC9900;
 	  padding: 0.3em;
 	}
 	
@@ -69,7 +69,7 @@
 		font-weight: bold;
 	  font-size: 1.2em;
 		font-style: italic;
-		color: #666;
+		color: #999;
 	}	
 	
 	
@@ -167,7 +167,7 @@
 
 
 	#garantias{
-	  text-align: left;
+	  text-align: justify;
 	}	
 
 	.lista{
